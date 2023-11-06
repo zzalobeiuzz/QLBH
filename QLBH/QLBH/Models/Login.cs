@@ -16,6 +16,8 @@ namespace QLBH.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+
+            
         }
     }
 }
