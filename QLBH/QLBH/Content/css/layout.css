@@ -1,0 +1,138 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Tahoma;
+}
+
+
+
+
+/*header-top*/
+.header-top {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.phone, .language {
+    margin: 10px 20px;
+    flex: auto;
+}
+
+.language {
+    text-align: end;
+}
+
+
+
+/*header-mid*/
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-mid-bottom {
+    width: 450px;
+}
+
+.search {
+    display: flex;
+    align-content: center;
+}
+
+.search-icon, #search {
+    padding: 10px 20px;
+}
+
+::placeholder { /* Màu chữ của placeholder */
+    color: #666363;
+}
+
+#search {
+    font-size: 20px;
+    width: 325px;
+    border: 2px solid #00ff21;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.search-icon {
+    font-size: 25px;
+    width: 86px;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #00ff21;
+    color: white;
+    border: none;
+}
+
+/*header right bottom*/
+.header-right-bottom {
+    margin-left: 30px;
+    display: flex;
+}
+
+.personalArea {
+    width: auto;
+    margin-right: 20px;
+}
+
+.icon-acc {
+    text-align: center;
+}
+
+.log-sign {
+    font-size: 16px;
+    color: black;
+    margin-top: 15px;
+}
+
+.icon {
+    font-size: 28px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+/*menu*/
+.option {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    justify-content: space-evenly
+}
+
+.catalog {
+    text-align: center;
+    height: 40px;
+    width: 260px;
+    font-size: 20px;
+    background-color: #F4989D;
+    padding-top: 12px;
+}
+.taskbar {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;    
+}
+li{
+    width:auto;
+    padding: 0 30px;
+    
+}
+a {
+    color: black;
+}
+
+.login-container{
+    display:none;
+}
